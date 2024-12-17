@@ -43,4 +43,23 @@ Through these projects, I learned the importance of:
 
 Modular Design: Writing functions for specific tasks made my code cleaner and easier to debug.
 Code Documentation: Adding clear comments and meaningful variable names improved the readability of my programs.
-Adaptability: Designing the code with flexibility in mind ensures it can be easily modified or extended in the future.
+Adaptability: Designing the code with flexibility in mind ensures it can be easily modified or extended in the future. 
+
+Reflection
+What was the problem you were solving in the projects for this course?
+In Project One, I analyzed the run-time and memory usage of various data structures to determine their performance trade-offs. In Project Two, I created a program to sort and display a list of Computer Science courses in alphanumeric order.
+
+How did you approach the problem? Consider why data structures are important to understand.
+I approached both projects systematically. I studied the properties of different data structures to determine their efficiency for specific operations. In Project Two, I applied a sorting algorithm to organize data effectively. Data structures are essential because they directly impact a program's performance, memory usage, and scalability.
+
+How did you overcome any roadblocks you encountered while going through the activities or project?
+For Project One, I overcame confusion about time complexities by referring to course materials and conducting tests on small datasets. In Project Two, I encountered sorting logic issues, which I resolved through incremental debugging and testing with edge cases.
+
+How has your work on this project expanded your approach to designing software and developing programs?
+These projects taught me to consider performance trade-offs when choosing data structures and algorithms. I learned to approach problems methodically, breaking them into smaller tasks to simplify design and implementation.
+
+How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
+I now prioritize writing clean, modular code with meaningful comments and variable names. This ensures my programs are easy to read, maintain, and scale for future enhancements.
+
+
+
