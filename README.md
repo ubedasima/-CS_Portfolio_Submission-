@@ -1,35 +1,50 @@
-# -CS_Portfolio_Submission-
-"Contains Project One analysis and Project Two sorting program for CS Portfolio."
-# Project One: Run-Time and Memory Analysis
 
-## Project Overview
-This project analyzes the **run-time complexity** and **memory usage** of the data structures used in managing course data. The analysis focuses on:
-- File processing and validation
-- Data storage using vectors
-- Searching and retrieving course information
+# CS Portfolio Submission
 
-## Key Highlights
-- **Run-Time Complexity**: O(n * m)  
-  - `n`: Number of courses  
-  - `m`: Average number of prerequisites per course  
-- **Memory Usage**: O(n * (s1 + s2 + m * s3))  
-  - `s1`: Length of course numbers  
-  - `s2`: Length of course titles  
-  - `s3`: Average length of prerequisites  
-
-## Purpose
-The goal of this project is to evaluate the performance of commonly used data structures, such as vectors and strings, while implementing efficient algorithms for data management.
-
-## Files Included
-- `runtime_memory_analysis.pdf`: A detailed analysis of the time and space complexity of the data structures.
-
-## Reflection
-Working on this project helped me:
-- Understand the importance of choosing the right data structures for efficiency.
-- Analyze the trade-offs between time complexity and memory usage.
-- Improve my ability to write clean, modular, and well-documented code.
+## Overview
+This repository includes two projects demonstrating algorithm analysis, sorting techniques, and memory optimization.
 
 ---
 
-### How to Use
-This document can be referenced when evaluating algorithm performance or optimizing similar implementations in real-world applications.
+## Project One: Run-Time and Memory Analysis
+
+### **Objective**:
+To analyze the performance of data structures in managing large course datasets, focusing on:
+- **Run-Time Complexity**: O(n * m)  
+- **Memory Usage**: O(n * (s1 + s2 + m * s3))  
+
+### **Key Features**:
+- File validation and processing.
+- Vector-based data storage for efficiency.
+- Search and retrieval algorithms for course data.
+
+### **Files Included**:
+- `runtime_memory_analysis.pdf`: Full analysis of time and space complexity.
+
+---
+
+## Project Two: Sorting Program
+
+### **Objective**:
+Implement sorting algorithms for organizing and retrieving course information.
+
+### **Key Features**:
+- Modular and optimized code.
+- Sorting functionality for improved data management.
+- Real-world applications for file-based course data.
+
+---
+
+## Skills Demonstrated
+- Algorithm Analysis (Time and Space Complexity)
+- C++ Programming and Modular Code Design
+- Efficient Data Management using Vectors
+- Clean Documentation and Reflection
+
+---
+
+## Usage Instructions
+1. **Compile the Code** (if applicable):
+   ```bash
+   g++ sorting_program.cpp -o sorting
+   ./sorting
