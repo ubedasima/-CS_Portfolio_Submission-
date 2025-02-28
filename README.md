@@ -1,65 +1,93 @@
+# **📱 MyApp UI Design and Development**
 
-CS Portfolio Submission
-Overview
-This repository contains two key projects that showcase my skills in data structures and algorithms. These projects highlight my ability to analyze the performance of data structures and implement efficient programs to solve practical problems.
+This repository contains my mobile app project, which showcases my ability to design and develop a user-centered mobile application using best practices in UI/UX design and mobile app development.
 
-Project One: Run-Time and Memory Analysis
-Objective:
-Analyze the run-time and memory usage of various data structures to understand their performance and trade-offs.
+## **📌 Project Overview**
 
-Artifact:
-runtime_memory_analysis.docx
+### **Goal & Purpose**
+The goal of this app is to **help users efficiently manage their daily tasks and reminders**. It was designed to **provide an intuitive and simple interface for organizing tasks, setting reminders, and tracking progress**.
 
-Description:
-In this project, I evaluated the performance of different data structures, including arrays, linked lists, and vectors, under various operations such as insertion, deletion, and searching. I analyzed their time complexities and memory usage to determine the most efficient structure for specific use cases.
+This project demonstrates my proficiency in mobile development by integrating:
+- **Technologies Used:** Android Studio, Kotlin, Firebase
+- **Core Features:** User authentication, data persistence, push notifications
+- **User-centered design principles**, ensuring accessibility and ease of use
 
-Project Two: Course Sorting Program
-Objective:
-Implement a program to sort and display a list of Computer Science courses in alphanumeric order.
+## **🖥️ UI Design & Features**
 
-Artifact:
-course_sorting.cpp
+### **📱 Screens & User Experience**
+To meet user needs, the app includes the following key screens:
 
-Description:
-This program reads a list of Computer Science course names and uses a sorting algorithm to organize them in ascending alphanumeric order. The program ensures efficient sorting and provides clean, readable output.
+1. **Login Screen** – Secure user authentication via email/password or OAuth.
+2. **Home Screen** – Displays an overview of upcoming tasks and reminders.
+3. **Task Management Screen** – Allows users to create, edit, and delete tasks.
+4. **Settings Screen** – Enables users to customize preferences, notification settings, and themes.
+5. **Profile Screen** – Displays user information and app usage insights.
 
-Reflection
-What was the problem you were solving in the projects for this course?
-Project One: The goal was to analyze and compare the run-time and memory efficiency of various data structures.
-Project Two: The problem was to develop a program that sorts a list of course names in alphanumeric order using an appropriate sorting algorithm.
-How did you approach the problem? Consider why data structures are important to understand.
-I approached both problems systematically:
+### **🎨 UI Design Approach**
+- **Consistency:** Used a cohesive color scheme, typography, and layout.
+- **Accessibility:** Followed WCAG guidelines to ensure readability.
+- **User-Centered:** Prioritized intuitive navigation and minimized user input effort.
 
-In Project One, I started by understanding how each data structure operates and then measured its efficiency during key operations. This helped me realize how choosing the wrong data structure can negatively impact performance.
-In Project Two, I implemented a sorting algorithm that efficiently organized the course names. Understanding data structures was critical because it allowed me to choose the best way to handle and manipulate the list of courses.
-How did you overcome any roadblocks you encountered while going through the activities or project?
-In Project One, I encountered challenges understanding the theoretical differences between data structures. To overcome this, I revisited class materials, performed independent research, and wrote small test programs to compare performance.
-In Project Two, my initial sorting logic did not produce the correct order for certain edge cases. I fixed this by debugging incrementally and testing my program with various sample inputs.
-How has your work on this project expanded your approach to designing software and developing programs?
-These projects expanded my ability to analyze problems and design efficient solutions. I now consider the trade-offs between time complexity and memory usage when choosing data structures. Additionally, I have developed a habit of breaking down problems into smaller, manageable tasks to simplify implementation.
+## **💻 Development Approach & Strategies**
 
-How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
-Through these projects, I learned the importance of:
+### **📜 Coding Techniques**
+- **Modular Code Structure** – Organized code using MVVM architecture for better separation of concerns.
+- **Reusability** – Designed reusable UI components to keep the codebase maintainable.
+- **State Management** – Used LiveData / ViewModel (for Android) to manage UI updates efficiently.
 
-Modular Design: Writing functions for specific tasks made my code cleaner and easier to debug.
-Code Documentation: Adding clear comments and meaningful variable names improved the readability of my programs.
-Adaptability: Designing the code with flexibility in mind ensures it can be easily modified or extended in the future. 
+### **💡 Future Applications**
+The strategies used in this project can be applied in future development by:
+- Scaling the app to support multiple platforms (**iOS & Android**).
+- Enhancing performance by implementing **local caching and optimized API calls**.
 
-Reflection
-What was the problem you were solving in the projects for this course?
-In Project One, I analyzed the run-time and memory usage of various data structures to determine their performance trade-offs. In Project Two, I created a program to sort and display a list of Computer Science courses in alphanumeric order.
+## **🧪 Testing & Debugging**
 
-How did you approach the problem? Consider why data structures are important to understand.
-I approached both projects systematically. I studied the properties of different data structures to determine their efficiency for specific operations. In Project Two, I applied a sorting algorithm to organize data effectively. Data structures are essential because they directly impact a program's performance, memory usage, and scalability.
+### **✅ Testing Methods**
+To ensure the app works as expected, I implemented:
+- **Unit Tests** – Verified business logic in ViewModel and data layers.
+- **UI Tests** – Automated tests using Espresso to validate screen interactions.
+- **Manual Testing** – Checked for usability issues and tested on multiple devices.
 
-How did you overcome any roadblocks you encountered while going through the activities or project?
-For Project One, I overcame confusion about time complexities by referring to course materials and conducting tests on small datasets. In Project Two, I encountered sorting logic issues, which I resolved through incremental debugging and testing with edge cases.
+### **🔎 Debugging & Fixes**
+- **Resolved UI crashes** by handling **edge cases and null exceptions**.
+- **Improved app performance** by optimizing **database queries and animations**.
 
-How has your work on this project expanded your approach to designing software and developing programs?
-These projects taught me to consider performance trade-offs when choosing data structures and algorithms. I learned to approach problems methodically, breaking them into smaller tasks to simplify design and implementation.
+## **🚀 Challenges & Innovation**
 
-How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
-I now prioritize writing clean, modular code with meaningful comments and variable names. This ensures my programs are easy to read, maintain, and scale for future enhancements.
+### **💡 Overcoming Development Challenges**
+One major challenge was **optimizing real-time data synchronization with Firebase**. To solve this:
+- I **implemented Firestore caching to reduce redundant network calls**.
+- I **optimized background data synchronization to improve app responsiveness**.
+
+### **🏆 Strongest Component**
+The **most successful part of my project** was **seamless task synchronization across multiple devices**. This demonstrates my ability to:
+- **Implement real-time database management with Firebase**.
+- **Optimize API interactions for better user experience**.
+
+##  Repository Contents**
+
+- `MyApp_UI_Design_SimonBedasso.ZIP`** – Contains the full app source code and UI design.
+-  `README.md`** – This project documentation. 
+
+## **📜 Conclusion**
+
+This project was a **valuable learning experience** that strengthened my skills in:
+- **Mobile App Development**
+- **User-Centered UI/UX Design**
+- **Performance Optimization & Debugging**
+- **Software Development Best Practices**
+
+The app successfully meets user needs by providing **a structured way to organize tasks, track productivity, and improve time management**.
+
+## **🔗 Submission**
+
+📌 **GitHub Repository Link:** [https://github.com/ubedasima/-CS_Portfolio_Submission-](https://github.com/ubedasima/-CS_Portfolio_Submission-)
+
+
+
+
+
+
 
 
 
